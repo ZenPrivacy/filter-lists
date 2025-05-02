@@ -1,0 +1,9 @@
+! Title: Zen - Ads
+! Expires: 12 hours
+
+! Disable rules from AdGuard's Base filter, which trigger YT's anti-adblock
+youtube.com#@%#//scriptlet('set-constant', 'ytInitialPlayerResponse.adPlacements', 'undefined')
+youtube.com#@%#//scriptlet('set-constant', 'ytInitialPlayerResponse.adSlots', 'undefined')
+youtube.com#@%#//scriptlet('set-constant', 'ytInitialPlayerResponse.playerAds', 'undefined')
+youtube.com#@%#//scriptlet('set-constant', 'playerResponse.adPlacements', 'undefined')
+||youtube.com/watch?$remove-js-constant=ytInitialPlayerResponse.playerConfig.ssapConfig|ytInitialPlayerResponse.adPlacements|ytInitialPlayerResponse.adSlots|ytInitialPlayerResponse.playerAds
