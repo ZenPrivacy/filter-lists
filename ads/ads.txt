@@ -7,3 +7,7 @@ youtube.com#@%#//scriptlet('set-constant', 'ytInitialPlayerResponse.adSlots', 'u
 youtube.com#@%#//scriptlet('set-constant', 'ytInitialPlayerResponse.playerAds', 'undefined')
 youtube.com#@%#//scriptlet('set-constant', 'playerResponse.adPlacements', 'undefined')
 ||youtube.com/watch?$remove-js-constant=ytInitialPlayerResponse.playerConfig.ssapConfig|ytInitialPlayerResponse.adPlacements|ytInitialPlayerResponse.adSlots|ytInitialPlayerResponse.playerAds
+youtube.com#@%#//scriptlet('json-prune', 'playerResponse.adPlacements playerResponse.adSlots', 'playerResponse.streamingData.serverAbrStreamingUrl')
+youtube.com#@%#//scriptlet('json-prune-xhr-response', 'playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots', '', '/playlist\?list=|\/player(?!.*(get_drm_license))|watch\?[tv]=|get_watch\?/')
+youtube.com#@%#//scriptlet('json-prune-fetch-response', 'playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots', '', '/playlist\?list=|player\?|watch\?[tv]=|get_watch\?/')
+||youtube.com/youtubei/v1/player$jsonprune=\$['adPlacements'\, 'adSlots'\, 'playerAds']
