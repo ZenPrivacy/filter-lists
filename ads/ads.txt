@@ -10,4 +10,4 @@ youtube.com#@%#//scriptlet('set-constant', 'playerResponse.adPlacements', 'undef
 youtube.com#@%#//scriptlet('json-prune', 'playerResponse.adPlacements playerResponse.adSlots', 'playerResponse.streamingData.serverAbrStreamingUrl')
 youtube.com#@%#//scriptlet('json-prune-xhr-response', 'playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots', '', '/playlist\?list=|\/player(?!.*(get_drm_license))|watch\?[tv]=|get_watch\?/')
 youtube.com#@%#//scriptlet('json-prune-fetch-response', 'playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots', '', '/playlist\?list=|player\?|watch\?[tv]=|get_watch\?/')
-||youtube.com$jsonprune=\$['adPlacements'\, 'adSlots'\, 'playerAds']
+||youtube.com/youtubei/v1/player$jsonprune=\$['adPlacements'\, 'adSlots'\, 'playerAds']
