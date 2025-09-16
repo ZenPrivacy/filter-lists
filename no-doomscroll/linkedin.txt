@@ -1,0 +1,11 @@
+# Feed
+linkedin.com##.feed-new-update-pill__new-update-button
+linkedin.com##.feed-shared-update-v2
+linkedin.com##.feed-shared-news-module
+linkedin.com##.feed-follows-module
+
+## Sidebar
+linkedin.com##.feed-right-rail
+linkedin.com##section:has(.games-entrypoints-module__subheader)
+linkedin.com###feed-right-rail-tooltip-outlet
+linkedin.com##.scaffold-finite-scroll__load-button
