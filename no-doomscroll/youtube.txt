@@ -1,0 +1,29 @@
+# Recommendations
+# Home page
+youtube.com##ytd-browse[page-subtype="home"]
+# Sidebar
+youtube.com###related
+
+# Shorts
+# Home page left sidebar entry
+youtube.com##.yt-simple-endpoint[title="Shorts"]
+# Subscriptions feed
+youtube.com##ytd-rich-shelf-renderer[is-shorts]
+# Video description, search results
+youtube.com##ytd-reel-shelf-renderer
+
+# End screen recommendations
+# Near end "next video" recommendation
+youtube.com##.ytp-ce-element
+# End screen recommendations grid
+youtube.com##.html5-endscreen
+
+# Misc
+# YT Premium promo
+youtube.com##ytd-popup-container:has(yt-mealbar-promo-renderer)
+# Sidebar "Explore" section
+youtube.com##ytd-guide-section-renderer:has(a[href*="/feed/trending"])
+# Top bar notification bell
+youtube.com##ytd-notification-topbar-button-renderer
+# Live chat
+youtube.com##ytd-live-chat-frame
