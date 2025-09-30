@@ -1,0 +1,7 @@
+# Feed on the index page, /explore, and /reels
+instagram.com#?#:matches-path(/^\/$/) main
+instagram.com#?#:matches-path(/explore) main
+instagram.com#?#:matches-path(/reels) main
+
+# Reels item in sidebar
+instagram.com#?#title:contains(Reels):upward(9)
