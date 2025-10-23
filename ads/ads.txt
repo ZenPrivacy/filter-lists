@@ -11,3 +11,6 @@ youtube.com#@%#//scriptlet('json-prune', 'playerResponse.adPlacements playerResp
 youtube.com#@%#//scriptlet('json-prune-xhr-response', 'playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots', '', '/playlist\?list=|\/player(?!.*(get_drm_license))|watch\?[tv]=|get_watch\?/')
 youtube.com#@%#//scriptlet('json-prune-fetch-response', 'playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots', '', '/playlist\?list=|player\?|watch\?[tv]=|get_watch\?/')
 ||youtube.com/youtubei/v1/player$jsonprune=\$['adPlacements'\, 'adSlots'\, 'playerAds']
+
+! Fixes infinite loading on YouTube; exception for a rule from AdGuard Base filter
+@@||googlevideo.com/videoplayback*ctier=L&*%2Cxpc%2Cctier%2C
