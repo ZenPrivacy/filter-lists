@@ -14,3 +14,7 @@ youtube.com#@%#//scriptlet('json-prune-fetch-response', 'playerResponse.adPlacem
 
 ! Fixes infinite loading on YouTube; exception for a rule from AdGuard Base filter
 @@||googlevideo.com/videoplayback*ctier=L&*%2Cxpc%2Cctier%2C
+
+||wowumounsou.com^$document
+||whauwhoatchee.com^
+embednow.top##div[style*="z-index: 2147483647"]:last-of-type
