@@ -1,8 +1,7 @@
 ! Title: Zen - Privacy
 ! Expires: 12 hours
 
-youtube.com#%#//scriptlet('sanitize-clipboard', 'si')
-spotify.com#%#//scriptlet('sanitize-clipboard', 'si')
+spotify.com,youtube.com#%#//scriptlet('sanitize-clipboard', 'si')
 reddit.com#%#//scriptlet('sanitize-clipboard', '/utm_.+/')
 linkedin.com#%#//scriptlet('sanitize-clipboard', '/utm_.+/ rcm')
 instagram.com#%#//scriptlet('sanitize-clipboard', '/utm_.+/ igsh')
