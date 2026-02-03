@@ -1,0 +1,2 @@
+bsky.app##div[data-testid="customFeedPage-feed"]
+bsky.app##div[data-testid="followingFeedPage"]
