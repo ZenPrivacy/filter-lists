@@ -1,7 +1,8 @@
-# Feed on the index page, /explore, and /reels
-instagram.com#?#:matches-path(/^\/$/) main
-instagram.com#?#:matches-path(/explore) main
-instagram.com#?#:matches-path(/reels) main
+# Feeds on /, /explore (not /explore/search), and /reels
+instagram.com#?#:matches-path(/^\/$/) article:style(visibility: hidden !important)
+instagram.com#?#:matches-path(/^\/explore\/$/) main > :not(nav)
+instagram.com#?#:matches-path(/explore/people) main
+instagram.com#?#:matches-path(/reels) main:style(visibility: hidden !important)
 
-# Reels item in sidebar
-instagram.com#?#title:contains(Reels):upward(9)
+# /reels in navbar
+instagram.com##a[href="/reels/"]
