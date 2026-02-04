@@ -1,0 +1,7 @@
+# Feed on /, r/popular, r/explore and r/all
+reddit.com#?#:matches-path(/^\/(r\/popular\/|r\/all\/|explore\/)?$/) main#main-content
+reddit.com#?#:matches-path(/^\/(r\/popular\/|r\/all\/|explore\/)?$/) #subgrid-container
+
+# Recent posts
+reddit.com##recent-posts
+reddit.com##reddit-recent-pages
