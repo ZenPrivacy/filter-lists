@@ -1,2 +1,0 @@
-# Home page feed
-x.com##:matches-path(/home) div[data-testid="primaryColumn"] > div:last-child > div:nth-child(5)
