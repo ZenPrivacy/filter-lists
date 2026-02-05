@@ -1,0 +1,8 @@
+# Feeds on /, /explore (not /explore/search), and /reels
+instagram.com#?#:matches-path(/^\/$/) article:style(visibility: hidden !important)
+instagram.com#?#:matches-path(/^\/explore\/$/) main > :not(nav)
+instagram.com#?#:matches-path(/explore/people) main
+instagram.com#?#:matches-path(/reels) main:style(visibility: hidden !important)
+
+# /reels in navbar
+instagram.com##a[href="/reels/"]
