@@ -1,0 +1,10 @@
+! /home feed
+x.com##:matches-path(/home) div[data-testid="primaryColumn"] > div:last-child > div:nth-child(5):style(visibility: hidden !important)
+
+! ## Sidebar sections
+! "Today's News"
+x.com##div[data-testid="news_sidebar"]:upward(1)
+! "What's happening"
+x.com##a[href="/explore/tabs/for-you"]:upward(6)
+! "Who to follow"
+x.com##div[data-testid="sidebarColumn"] a[href^="/i/connect_people"]:upward(3)
