@@ -19,11 +19,7 @@ youtube.com##.ytp-ce-element
 youtube.com##.html5-endscreen
 
 # Misc
-# YT Premium promo
-youtube.com##ytd-popup-container:has(yt-mealbar-promo-renderer)
 # Sidebar "Explore" section
 youtube.com##ytd-guide-section-renderer:has(a[href*="/feed/trending"])
 # Top bar notification bell
 youtube.com##ytd-notification-topbar-button-renderer
-# Live chat
-youtube.com##ytd-live-chat-frame
