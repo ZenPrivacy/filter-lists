@@ -1,0 +1,15 @@
+! Title: no-doomscroll/reddit
+! Expires: 12 hours
+! Homepage: https://github.com/ZenPrivacy/filter-lists/tree/master/no-doomscroll
+! License: https://github.com/ZenPrivacy/filter-lists/blob/master/LICENSE
+! GitHub issues: https://github.com/ZenPrivacy/filter-lists/issues?q=is%3Aissue%20label%3Ano-doomscroll
+! GitHub pull requests: https://github.com/ZenPrivacy/filter-lists/pulls?q=is%3Apr+label%3Ano-doomscroll
+! Description: Block feeds and other doomscroll-inducing elements on Reddit (reddit.com). Compatible with Zen and uBlock Origin.
+
+! Feed on /, r/popular, r/explore and r/all
+reddit.com#?#:matches-path(/^\/(r\/popular\/|r\/all\/|explore\/)?$/) main#main-content
+reddit.com#?#:matches-path(/^\/(r\/popular\/|r\/all\/|explore\/)?$/) #subgrid-container
+
+! Recent posts
+reddit.com##recent-posts
+reddit.com##reddit-recent-pages

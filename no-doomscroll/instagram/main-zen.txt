@@ -1,0 +1,16 @@
+! Title: no-doomscroll/instagram
+! Expires: 12 hours
+! Homepage: https://github.com/ZenPrivacy/filter-lists/tree/master/no-doomscroll
+! License: https://github.com/ZenPrivacy/filter-lists/blob/master/LICENSE
+! GitHub issues: https://github.com/ZenPrivacy/filter-lists/issues?q=is%3Aissue%20label%3Ano-doomscroll
+! GitHub pull requests: https://github.com/ZenPrivacy/filter-lists/pulls?q=is%3Apr+label%3Ano-doomscroll
+! Description: Block feeds and other doomscroll-inducing elements on Instagram (instagram.com). Compatible with Zen and uBlock Origin.
+
+# Feeds on /, /explore (not /explore/search), and /reels
+instagram.com#?#:matches-path(/^\/$/) article:style(visibility: hidden !important)
+instagram.com#?#:matches-path(/^\/explore\/$/) main > :not(nav)
+instagram.com#?#:matches-path(/explore/people) main
+instagram.com#?#:matches-path(/reels) main:style(visibility: hidden !important)
+
+# /reels in navbar
+instagram.com##a[href="/reels/"]
