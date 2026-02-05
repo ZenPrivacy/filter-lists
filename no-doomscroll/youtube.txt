@@ -1,25 +1,32 @@
-# Recommendations
-# Home page
+! ## Recommendations
+! Home page
 youtube.com##ytd-browse[page-subtype="home"]
-# Sidebar
+! Sidebar
 youtube.com###related
 
-# Shorts
-# Home page left sidebar entry
+! ## Shorts
+! /shorts
+youtube.com##ytd-shorts
+! Home page left sidebar entry
 youtube.com##.yt-simple-endpoint[title="Shorts"]
-# Subscriptions feed
+! Subscriptions feed
 youtube.com##ytd-rich-shelf-renderer[is-shorts]
-# Video description, search results
+! Video description, search results
 youtube.com##ytd-reel-shelf-renderer
+youtube.com##grid-shelf-view-model:has(ytm-shorts-lockup-view-model-v2)
 
-# End screen recommendations
-# Near end "next video" recommendation
+! ## End screen recommendations
+! Near end "next video" recommendation
 youtube.com##.ytp-ce-element
-# End screen recommendations grid
+! End screen recommendations grid
 youtube.com##.html5-endscreen
+youtube.com##.ytp-suggestion-set
 
-# Misc
-# Sidebar "Explore" section
+! ## Misc
+! Sidebar "Explore" section
 youtube.com##ytd-guide-section-renderer:has(a[href*="/feed/trending"])
-# Top bar notification bell
+youtube.com##ytd-guide-section-renderer:has(a[href="/gaming"])
+! "Explore" Music/Gaming/Sports
+youtube.com#?#:matches-path(/^\/(gaming|channel\/(UC-9-kyTW8ZkZNDHQJ6FgpwQ|UCEgdi0XIXXZ-qJOFPf4JSKw))$/) ytd-browse
+! Top bar notification bell
 youtube.com##ytd-notification-topbar-button-renderer
