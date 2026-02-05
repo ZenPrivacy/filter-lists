@@ -1,6 +1,7 @@
 # no-doomscroll
 
 ![Human hours saved](https://img.shields.io/badge/human_hours_saved-%E2%88%9E-blue)
+![Contributions are welcome](https://img.shields.io/badge/contributions-welcome-green)
 
 RESIST. Reclaim your attention. Reclaim your life.
 
