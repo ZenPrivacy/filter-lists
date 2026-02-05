@@ -1,0 +1,14 @@
+! Home, Explore and Following pages
+tiktok.com#?#:matches-path(/^\/$/) #main-content-homepage_hot
+tiktok.com#?#:matches-path(/^\/explore\/?$/) #main-content-explore_page
+tiktok.com#?#:matches-path(/^\/following\/?$/) #main-content-homepage_follow
+
+! Home, Explore and Following sidebar items
+! Sometimes the parent element is h2, sometimes it's .TUXTooltip-reference,
+! so both cases are included.
+tiktok.com#?#h2:has(.TUXTooltip-reference button[aria-label="For You"])
+tiktok.com#?#.TUXTooltip-reference:has(button[aria-label="For You"])
+tiktok.com#?#h2:has(.TUXTooltip-reference button[aria-label="Explore"])
+tiktok.com#?#.TUXTooltip-reference:has(button[aria-label="Explore"])
+tiktok.com#?#h2:has(.TUXTooltip-reference button[aria-label="Following"])
+tiktok.com#?#.TUXTooltip-reference:has(button[aria-label="Following"])
