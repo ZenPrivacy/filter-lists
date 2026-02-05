@@ -1,3 +1,11 @@
+! Title: no-doomscroll/x
+! Expires: 12 hours
+! Homepage: https://github.com/ZenPrivacy/filter-lists/tree/master/no-doomscroll
+! License: https://github.com/ZenPrivacy/filter-lists/blob/master/LICENSE
+! GitHub issues: https://github.com/ZenPrivacy/filter-lists/issues?q=is%3Aissue%20label%3Ano-doomscroll
+! GitHub pull requests: https://github.com/ZenPrivacy/filter-lists/pulls?q=is%3Apr+label%3Ano-doomscroll
+! Description: Block feeds and other doomscroll-inducing elements on X (x.com). Compatible with Zen and uBlock Origin.
+
 ! /home feed
 x.com##:matches-path(/home) div[data-testid="primaryColumn"] > div:last-child > div:nth-child(5):style(visibility: hidden !important)
 ! /explore feed
