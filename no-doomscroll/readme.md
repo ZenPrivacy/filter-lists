@@ -11,28 +11,27 @@ Every major social platform employs an algorithmic feed tuned to maximize the ti
 
 ## How to add
 
-The filter lists are compatible with [Zen](https://github.com/ZenPrivacy/zen-desktop), [uBlock Origin](https://github.com/gorhill/uBlock), and [AdGuard](https://adguard.com/).
+The filter lists are compatible with [Zen](https://github.com/ZenPrivacy/zen-desktop) and [uBlock Origin](https://github.com/gorhill/uBlock).
 
 | Ad-blocker | Instructions |
 |---------|--------------|
 | Zen | Open Filter lists → Custom → Add the filter list URL |
 | uBlock Origin | Open Dashboard → Filter lists → Import → Add the filter list URL |
-| AdGuard | Platform-specific; see [AdGuard documentation](https://adguard.com/kb/) |
 
 You can subscribe to the **All sites** list to cover everything, or pick individual sites if you only want to control specific platforms.
 
 ## Filter lists
 
-| List | Zen / uBlock Origin | AdGuard | What's blocked |
-|------|----------------------|---------|----------------|
-| __All sites (combined)__ | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/main-zen.txt) | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/main-ag.txt) | Everything below, combined |
-| YouTube | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/youtube/main-zen.txt) | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/youtube/main-ag.txt) | Home feed, Shorts, sidebar recommendations, end-screen suggestions, Explore section, notification bell |
-| TikTok | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/tiktok/main-zen.txt) | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/tiktok/main-ag.txt) | For You, Explore, and Following feeds and sidebar links |
-| Instagram | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/instagram/main-zen.txt) | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/instagram/main-ag.txt) | Home, Explore, Suggested People, Reels |
-| X | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/x/main-zen.txt) | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/x/main-ag.txt) | Home and Explore feeds; sidebar Today's News, What's happening, Who to follow |
-| Reddit | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/reddit/main-zen.txt) | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/reddit/main-ag.txt) | Home, r/popular, r/all, and r/explore feeds; recent posts |
-| Bluesky | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/bluesky/main-zen.txt) | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/bluesky/main-ag.txt) | Custom and Following feeds on index page |
-| LinkedIn | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/linkedin/main-zen.txt) | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/linkedin/main-ag.txt) | Feed posts, news module, follows suggestions, right sidebar, games |
+| List | Link | What's blocked |
+|------|------|----------------|
+| __All sites (combined)__ | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/main-zen.txt) | Everything below, combined |
+| YouTube | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/youtube/main-zen.txt) | Home feed, Shorts, sidebar recommendations, end-screen suggestions, Explore section, notification bell |
+| TikTok | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/tiktok/main-zen.txt) | For You, Explore, and Following feeds and sidebar links |
+| Instagram | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/instagram/main-zen.txt) | Home, Explore, Suggested People, Reels |
+| X | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/x/main-zen.txt) | Home and Explore feeds; sidebar Today's News, What's happening, Who to follow |
+| Reddit | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/reddit/main-zen.txt) | Home, r/popular, r/all, and r/explore feeds; recent posts |
+| Bluesky | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/bluesky/main-zen.txt) | Custom and Following feeds on index page |
+| LinkedIn | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/linkedin/main-zen.txt) | Feed posts, news module, follows suggestions, right sidebar, games |
 
 ## Something broke?
 
@@ -49,8 +48,8 @@ Filter lists update every 12 hours, so please allow some time for fixes to propa
 
 Contributions are welcome – whether it's fixing a broken filter, improving coverage on an existing site, or adding a new platform entirely.
 
-- Each site has its own file under `no-doomscroll/<site>/main-zen.txt` (Zen/uBlock Origin) and `no-doomscroll/<site>/main-ag.txt` (AdGuard). The combined lists in `no-doomscroll/main-zen.txt` and `no-doomscroll/main-ag.txt` just include them all.
+- Each site has its own file under `no-doomscroll/<site>/main-zen.txt`. The combined list in `no-doomscroll/main-zen.txt` just includes them all.
 - The goal is to block feeds and recommendation feeds, not content. If a user navigated there on purpose, it should still work.
-- Test your filters in both Zen and uBlock Origin, and in AdGuard if possible.
+- Test your filters in both Zen and uBlock Origin.
 
 Open a [pull request](https://github.com/ZenPrivacy/filter-lists/pulls) with the label `no-doomscroll`.
