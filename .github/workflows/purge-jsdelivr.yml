@@ -1,0 +1,24 @@
+name: Purge jsDelivr cache
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - "no-doomscroll/**.txt"
+  workflow_dispatch:
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Purge jsDelivr cache
+        run: |
+          files=($(find no-doomscroll -type f -name '*.txt'))
+
+          for file in "${files[@]}"; do
+            url="https://purge.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/${file}"
+            echo "Purging ${url}"
+            curl -s -o /dev/null -w "%{http_code}" "$url"
+            echo ""
+          done
