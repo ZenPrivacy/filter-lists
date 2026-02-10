@@ -14,20 +14,11 @@ jobs:
     steps:
       - name: Purge jsDelivr cache
         run: |
-          files=(
-            "no-doomscroll/main-zen.txt"
-            "no-doomscroll/youtube/main-zen.txt"
-            "no-doomscroll/tiktok/main-zen.txt"
-            "no-doomscroll/instagram/main-zen.txt"
-            "no-doomscroll/x/main-zen.txt"
-            "no-doomscroll/reddit/main-zen.txt"
-            "no-doomscroll/bluesky/main-zen.txt"
-            "no-doomscroll/linkedin/main-zen.txt"
-          )
+          files=($(find no-doomscroll -type f -name '*.txt'))
 
           for file in "${files[@]}"; do
             url="https://purge.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/${file}"
-            echo "Purging ${file}..."
+            echo "Purging ${url}"
             curl -s -o /dev/null -w "%{http_code}" "$url"
             echo ""
           done
