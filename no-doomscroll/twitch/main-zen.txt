@@ -10,9 +10,11 @@
 twitch.tv##main:has(#front-page-main-content)
 
 ! Side bar Live channels, Recommended categories, Viewers Also Watch
-twitch.tv##div[aria-label="Live Channels"].side-nav-section
-twitch.tv##div[aria-label="Recommended Categories"].side-nav-section
-twitch.tv##div.side-nav-section[aria-label$="Viewers Also Watch"]
+twitch.tv##div.side-nav-section:has([data-test-selector="recommended-channel"])
+twitch.tv##div.side-nav-section:has(a[href^="/directory/category/"])
+twitch.tv##div.side-nav-section:has([data-test-selector="similarity-channel"])
 
 ! Recommended channels on "Following" page
+! The second rule is a fallback: it may not remove the entire section, but it removes the content if first rule stops working.
 twitch.tv#?#:matches-path(/^\/directory\/following\/?$/) .find-me
+twitch.tv##.tw-tower:has([data-test-selector="shelf-card-selector"])
