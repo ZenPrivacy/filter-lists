@@ -1,0 +1,18 @@
+! Title: no-doomscroll/twitch
+! Expires: 12 hours
+! Homepage: https://github.com/ZenPrivacy/filter-lists/tree/master/no-doomscroll
+! License: https://github.com/ZenPrivacy/filter-lists/blob/master/LICENSE
+! GitHub issues: https://github.com/ZenPrivacy/filter-lists/issues?q=is%3Aissue%20label%3Ano-doomscroll
+! GitHub pull requests: https://github.com/ZenPrivacy/filter-lists/pulls?q=is%3Apr+label%3Ano-doomscroll
+! Description: Block recommended channels, categories on Twitch (twitch.tv). Compatible with Zen and uBlock Origin.
+
+! Home page
+twitch.tv##main:has(#front-page-main-content)
+
+! Side bar Live channels, Recommended categories, Viewers Also Watch
+twitch.tv##div[aria-label="Live Channels"].side-nav-section
+twitch.tv##div[aria-label="Recommended Categories"].side-nav-section
+twitch.tv##div.side-nav-section[aria-label$="Viewers Also Watch"]
+
+! Recommended channels on "Following" page
+twitch.tv#?#:matches-path(/^\/directory\/following\/?$/) .find-me

@@ -32,6 +32,7 @@ You can subscribe to the **All sites** list to cover everything, or pick individ
 | Reddit | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/reddit/main-zen.txt) | Home, r/popular, r/all, and r/explore feeds; recent posts |
 | Bluesky | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/bluesky/main-zen.txt) | Custom and Following feeds on index page |
 | LinkedIn | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/linkedin/main-zen.txt) | Feed posts, news module, follows suggestions, right sidebar, games |
+| Twitch | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/twitch/main-zen.txt) | Recommended channels, categories |
 
 ## Something broke?
 
