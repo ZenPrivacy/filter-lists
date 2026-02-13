@@ -9,6 +9,12 @@ Every major social platform employs an algorithmic feed tuned to maximize the ti
 
 `no-doomscroll` is an opinionated set of filter lists that remove these feeds, recommendations, and other bits of UI whose only job is to keep you scrolling. You can still open a profile, read a post, message a friend, or look something up – the only thing that disappears is the endless stream you never asked for.
 
+<p align="center">
+  <picture>
+    <img src="./showcase.gif?raw=true" width="800" alt="Animated demonstration showing no-doomscroll in action across multiple sites. YouTube, Reddit, X (Twitter), Twitch, and TikTok are displayed first in their default states, then with no-doomscroll enabled with hidden feeds and other distracting elements."  />
+  </picture>
+</p>
+
 ## How to add
 
 The filter lists are compatible with [Zen](https://github.com/ZenPrivacy/zen-desktop) and [uBlock Origin](https://github.com/gorhill/uBlock).
