@@ -21,7 +21,7 @@ The filter lists are compatible with [Zen](https://github.com/ZenPrivacy/zen-des
 
 | Ad-blocker | Instructions |
 |---------|--------------|
-| Zen | Open Filter lists → Custom → Add the filter list URL |
+| Zen | Available in Zen under **Filter lists → Digital wellbeing** |
 | uBlock Origin | Open Dashboard → Filter lists → Import → Add the filter list URL |
 
 You can subscribe to the **All sites** list to cover everything, or pick individual sites if you only want to control specific platforms.
