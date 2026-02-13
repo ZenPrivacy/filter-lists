@@ -11,7 +11,7 @@ Every major social platform employs an algorithmic feed tuned to maximize the ti
 
 <p align="center">
   <picture>
-    <img src="./showcase.gif?raw=true" width="800" height="600" alt="Animated demonstration showing no-doomscroll in action across multiple sites. YouTube, Reddit, X (Twitter), Twitch, and TikTok are displayed first in their default states, then with no-doomscroll enabled with hidden feeds and other distracting elements."  />
+    <img src="./showcase.gif?raw=true" width="800" alt="Animated demonstration showing no-doomscroll in action across multiple sites. YouTube, Reddit, X (Twitter), Twitch, and TikTok are displayed first in their default states, then with no-doomscroll enabled with hidden feeds and other distracting elements."  />
   </picture>
 </p>
 
@@ -21,7 +21,7 @@ The filter lists are compatible with [Zen](https://github.com/ZenPrivacy/zen-des
 
 | Ad-blocker | Instructions |
 |---------|--------------|
-| Zen | Open Filter lists → Custom → Add the filter list URL |
+| Zen | Available in Zen under **Filter lists → Digital wellbeing** |
 | uBlock Origin | Open Dashboard → Filter lists → Import → Add the filter list URL |
 
 You can subscribe to the **All sites** list to cover everything, or pick individual sites if you only want to control specific platforms.
