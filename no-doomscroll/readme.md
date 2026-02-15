@@ -3,11 +3,10 @@
 ![Human hours saved](https://img.shields.io/badge/human_hours_saved-%E2%88%9E-blue)
 ![Contributions are welcome](https://img.shields.io/badge/contributions-welcome-green)
 
-RESIST. Reclaim your attention. Reclaim your life.
+`no-doomscroll` is an opinionated set of ad-block filter lists that hide algorithmic feeds, recommendations, and other UI elements designed to keep you scrolling.
 
-Every major social platform employs an algorithmic feed tuned to maximize the time you spend on it – not the value you get from it. The "For You" page, the infinite home feed, the autoplay queue, the "you might also like" sidebar – none of these exist for your benefit. They exist because your attention is the product.
+Covers YouTube, TikTok, Instagram, X, Reddit, Bluesky, LinkedIn, and Twitch. Works with [Zen](https://github.com/ZenPrivacy/zen-desktop) and [uBlock Origin](https://github.com/gorhill/uBlock).
 
-`no-doomscroll` is an opinionated set of filter lists that remove these feeds, recommendations, and other bits of UI whose only job is to keep you scrolling. You can still open a profile, read a post, message a friend, or look something up – the only thing that disappears is the endless stream you never asked for.
 
 <p align="center">
   <picture>
@@ -17,14 +16,14 @@ Every major social platform employs an algorithmic feed tuned to maximize the ti
 
 ## How to add
 
-The filter lists are compatible with [Zen](https://github.com/ZenPrivacy/zen-desktop) and [uBlock Origin](https://github.com/gorhill/uBlock).
+The lists are compatible with [Zen](https://github.com/ZenPrivacy/zen-desktop) and [uBlock Origin](https://github.com/gorhill/uBlock).
 
 | Ad-blocker | Instructions |
 |---------|--------------|
 | Zen | Available in Zen under **Filter lists → Digital wellbeing** |
 | uBlock Origin | Open Dashboard → Filter lists → Import → Add the filter list URL |
 
-You can subscribe to the **All sites** list to cover everything, or pick individual sites if you only want to control specific platforms.
+Subscribe to **All sites** to cover everything, or pick individual sites if you only want to control specific platforms.
 
 ## Filter lists
 
@@ -42,7 +41,7 @@ You can subscribe to the **All sites** list to cover everything, or pick individ
 
 ## Something broke?
 
-Social media sites ship UI changes constantly, and when they do, selectors can go stale. If a feed reappears or a page looks wrong, [file an issue](https://github.com/ZenPrivacy/filter-lists/issues/new?labels=no-doomscroll) with:
+Social media sites ship UI changes constantly, so the lists can break. If a feed reappears or a page looks wrong, [file an issue](https://github.com/ZenPrivacy/filter-lists/issues/new?labels=no-doomscroll) with:
 
 - The site and page URL.
 - What you're seeing that shouldn't be there (or what's missing that should still work).
@@ -55,8 +54,8 @@ Filter lists update every 12 hours, so please allow some time for fixes to propa
 
 Contributions are welcome – whether it's fixing a broken filter, improving coverage on an existing site, or adding a new platform entirely.
 
-- Each site has its own file under `no-doomscroll/<site>/main-zen.txt`. The combined list in `no-doomscroll/main-zen.txt` just includes them all.
-- The goal is to block feeds and recommendation feeds, not content. If a user navigated there on purpose, it should still work.
+- Each site has its own file under `no-doomscroll/<site>/main-zen.txt`. The combined list at [`no-doomscroll/main-zen.txt`](main-zen.txt) includes them all.
+- The goal is to block feeds and recommendations, not content. If a user navigated there on purpose, it should still work.
 - Test your filters in both Zen and uBlock Origin.
 
 Open a [pull request](https://github.com/ZenPrivacy/filter-lists/pulls) with the label `no-doomscroll`.
