@@ -2,7 +2,7 @@
 
 ![GitHub License](https://img.shields.io/github/license/ZenPrivacy/filter-lists)
 ![jsDelivr hits (GitHub)](https://img.shields.io/jsdelivr/gh/hm/ZenPrivacy/filter-lists)
-<a href="https://discord.gg/jSzEwby7JY">
+<a href="https://discord.gg/zGeQVatAUm">
   <img alt="Discord" src="https://img.shields.io/discord/1334633399490711685?logo=discord&logoColor=fff&label=Discord&color=5865F2"/>
 </a>
 
