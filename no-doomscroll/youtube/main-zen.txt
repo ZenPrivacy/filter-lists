@@ -11,22 +11,22 @@
 
 ! ## Recommendations
 ! Home page
-youtube.com##ytd-browse[page-subtype="home"]
+www.youtube.com##ytd-browse[page-subtype="home"]
 ! Sidebar
-youtube.com###related
+www.youtube.com###related
 
 ! ## End screen recommendations
 ! Near end "next video" recommendation
-youtube.com##.ytp-ce-element
+www.youtube.com##.ytp-ce-element
 ! End screen recommendations grid
-youtube.com##.html5-endscreen
-youtube.com##.ytp-suggestion-set
+www.youtube.com##.html5-endscreen
+www.youtube.com##.ytp-suggestion-set
 
 ! ## Misc
 ! Sidebar "Explore" section
-youtube.com##ytd-guide-section-renderer:has(a[href*="/feed/trending"])
-youtube.com##ytd-guide-section-renderer:has(a[href="/gaming"])
+www.youtube.com##ytd-guide-section-renderer:has(a[href*="/feed/trending"])
+www.youtube.com##ytd-guide-section-renderer:has(a[href="/gaming"])
 ! "Explore" Music/Gaming/Sports
-youtube.com#?#:matches-path(/^\/(gaming|channel\/(UC-9-kyTW8ZkZNDHQJ6FgpwQ|UCEgdi0XIXXZ-qJOFPf4JSKw))$/) ytd-browse
+www.youtube.com#?#:matches-path(/^\/(gaming|channel\/(UC-9-kyTW8ZkZNDHQJ6FgpwQ|UCEgdi0XIXXZ-qJOFPf4JSKw))$/) ytd-browse
 ! Top bar notification bell
-youtube.com##ytd-notification-topbar-button-renderer
+www.youtube.com##ytd-notification-topbar-button-renderer
