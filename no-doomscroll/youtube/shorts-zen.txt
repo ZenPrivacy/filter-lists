@@ -7,13 +7,25 @@
 ! Description: Block YouTube Shorts (youtube.com). Compatible with Zen and uBlock Origin.
 
 ! /shorts
-youtube.com##ytd-shorts
+www.youtube.com##ytd-shorts
 ! Home page left sidebar entry
-youtube.com##.yt-simple-endpoint[title="Shorts"]
+www.youtube.com##.yt-simple-endpoint[title="Shorts"]
 ! Home page
-youtube.com##ytd-rich-section-renderer:has(ytm-shorts-lockup-view-model-v2)
+www.youtube.com##ytd-rich-section-renderer:has(ytm-shorts-lockup-view-model-v2)
 ! Subscriptions feed
-youtube.com##ytd-rich-shelf-renderer[is-shorts]
+www.youtube.com##ytd-rich-shelf-renderer[is-shorts]
 ! Video description, search results
-youtube.com##ytd-reel-shelf-renderer
-youtube.com##grid-shelf-view-model:has(ytm-shorts-lockup-view-model-v2)
+www.youtube.com##ytd-reel-shelf-renderer
+www.youtube.com##grid-shelf-view-model:has(ytm-shorts-lockup-view-model-v2)
+
+! ## Mobile
+! Home page feed
+m.youtube.com##ytm-rich-section-renderer:has(ytm-shorts-lockup-view-model)
+! Bottom navbar "Shorts" link
+m.youtube.com##ytm-pivot-bar-item-renderer:has(.pivot-shorts)
+! /shorts
+m.youtube.com##shorts-carousel
+! Search results
+m.youtube.com##grid-shelf-view-model:has(ytm-shorts-lockup-view-model)
+! Video description
+m.youtube.com##ytm-reel-shelf-renderer
