@@ -31,6 +31,7 @@ Subscribe to **All sites** to cover everything, or pick individual sites if you 
 |------|------|----------------|
 | __All sites (combined)__ | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/main-zen.txt) | Everything below, combined |
 | YouTube | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/youtube/main-zen.txt) | Home feed, Shorts, sidebar recommendations, end-screen suggestions, Explore section, notification bell |
+| ↳ YouTube Shorts only | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/youtube/shorts-zen.txt) | Shorts feed, Shorts in home page, subscriptions, search results, and video descriptions |
 | TikTok | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/tiktok/main-zen.txt) | For You, Explore, and Following feeds and sidebar links |
 | Instagram | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/instagram/main-zen.txt) | Home, Explore, Suggested People, Reels |
 | X | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/x/main-zen.txt) | Home and Explore feeds; sidebar Today's News, What's happening, Who to follow |
