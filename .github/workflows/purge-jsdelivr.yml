@@ -21,7 +21,7 @@ jobs:
           files=($(find no-doomscroll -type f -name '*.txt'))
 
           for file in "${files[@]}"; do
-            url="https://purge.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/${file}"
+            url="https://purge.jsdelivr.net/gh/irbis-sh/filter-lists@master/${file}"
             echo "Purging ${url}"
             curl -s -o /dev/null -w "%{http_code}" "$url"
             echo ""
