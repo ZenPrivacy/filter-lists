@@ -5,7 +5,7 @@
 
 `no-doomscroll` is an opinionated set of ad-block filter lists that hide algorithmic feeds, recommendations, and other UI elements designed to keep you scrolling.
 
-Covers YouTube, TikTok, Instagram, X, Reddit, Bluesky, LinkedIn, and Twitch. Works with [Zen](https://github.com/ZenPrivacy/zen-desktop) and [uBlock Origin](https://github.com/gorhill/uBlock).
+Covers YouTube, TikTok, Instagram, X, Reddit, Bluesky, LinkedIn, and Twitch. Works with [Zen](https://github.com/irbis-sh/zen-desktop) and [uBlock Origin](https://github.com/gorhill/uBlock).
 
 
 <p align="center">
@@ -16,7 +16,7 @@ Covers YouTube, TikTok, Instagram, X, Reddit, Bluesky, LinkedIn, and Twitch. Wor
 
 ## How to add
 
-The lists are compatible with [Zen](https://github.com/ZenPrivacy/zen-desktop) and [uBlock Origin](https://github.com/gorhill/uBlock).
+The lists are compatible with [Zen](https://github.com/irbis-sh/zen-desktop) and [uBlock Origin](https://github.com/gorhill/uBlock).
 
 | Ad-blocker | Instructions |
 |---------|--------------|
@@ -29,20 +29,20 @@ Subscribe to **All sites** to cover everything, or pick individual sites if you 
 
 | List | Link | What's blocked |
 |------|------|----------------|
-| __All sites (combined)__ | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/main-zen.txt) | Everything below, combined |
-| YouTube | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/youtube/main-zen.txt) | Home feed, Shorts, sidebar recommendations, end-screen suggestions, Explore section, notification bell |
-| ↳ YouTube Shorts only | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/youtube/shorts-zen.txt) | Shorts feed, Shorts in home page, subscriptions, search results, and video descriptions |
-| TikTok | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/tiktok/main-zen.txt) | For You, Explore, and Following feeds and sidebar links |
-| Instagram | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/instagram/main-zen.txt) | Home, Explore, Suggested People, Reels |
-| X | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/x/main-zen.txt) | Home and Explore feeds; sidebar Today's News, What's happening, Who to follow |
-| Reddit | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/reddit/main-zen.txt) | Home, r/popular, r/all, and r/explore feeds; recent posts |
-| Bluesky | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/bluesky/main-zen.txt) | Custom and Following feeds on index page |
-| LinkedIn | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/linkedin/main-zen.txt) | Feed posts, news module, follows suggestions, right sidebar, games |
-| Twitch | [Link](https://cdn.jsdelivr.net/gh/ZenPrivacy/filter-lists@master/no-doomscroll/twitch/main-zen.txt) | Home page, recommended channels, categories |
+| __All sites (combined)__ | [Link](https://cdn.jsdelivr.net/gh/irbis-sh/filter-lists@master/no-doomscroll/main-zen.txt) | Everything below, combined |
+| YouTube | [Link](https://cdn.jsdelivr.net/gh/irbis-sh/filter-lists@master/no-doomscroll/youtube/main-zen.txt) | Home feed, Shorts, sidebar recommendations, end-screen suggestions, Explore section, notification bell |
+| ↳ YouTube Shorts only | [Link](https://cdn.jsdelivr.net/gh/irbis-sh/filter-lists@master/no-doomscroll/youtube/shorts-zen.txt) | Shorts feed, Shorts in home page, subscriptions, search results, and video descriptions |
+| TikTok | [Link](https://cdn.jsdelivr.net/gh/irbis-sh/filter-lists@master/no-doomscroll/tiktok/main-zen.txt) | For You, Explore, and Following feeds and sidebar links |
+| Instagram | [Link](https://cdn.jsdelivr.net/gh/irbis-sh/filter-lists@master/no-doomscroll/instagram/main-zen.txt) | Home, Explore, Suggested People, Reels |
+| X | [Link](https://cdn.jsdelivr.net/gh/irbis-sh/filter-lists@master/no-doomscroll/x/main-zen.txt) | Home and Explore feeds; sidebar Today's News, What's happening, Who to follow |
+| Reddit | [Link](https://cdn.jsdelivr.net/gh/irbis-sh/filter-lists@master/no-doomscroll/reddit/main-zen.txt) | Home, r/popular, r/all, and r/explore feeds; recent posts |
+| Bluesky | [Link](https://cdn.jsdelivr.net/gh/irbis-sh/filter-lists@master/no-doomscroll/bluesky/main-zen.txt) | Custom and Following feeds on index page |
+| LinkedIn | [Link](https://cdn.jsdelivr.net/gh/irbis-sh/filter-lists@master/no-doomscroll/linkedin/main-zen.txt) | Feed posts, news module, follows suggestions, right sidebar, games |
+| Twitch | [Link](https://cdn.jsdelivr.net/gh/irbis-sh/filter-lists@master/no-doomscroll/twitch/main-zen.txt) | Home page, recommended channels, categories |
 
 ## Something broke?
 
-Social media sites ship UI changes constantly, so the lists can break. If a feed reappears or a page looks wrong, [file an issue](https://github.com/ZenPrivacy/filter-lists/issues/new?labels=no-doomscroll) with:
+Social media sites ship UI changes constantly, so the lists can break. If a feed reappears or a page looks wrong, [file an issue](https://github.com/irbis-sh/filter-lists/issues/new?labels=no-doomscroll) with:
 
 - The site and page URL.
 - What you're seeing that shouldn't be there (or what's missing that should still work).
@@ -59,4 +59,4 @@ Contributions are welcome – whether it's fixing a broken filter, improving cov
 - The goal is to block feeds and recommendations, not content. If a user navigated there on purpose, it should still work.
 - Test your filters in both Zen and uBlock Origin.
 
-Open a [pull request](https://github.com/ZenPrivacy/filter-lists/pulls) with the label `no-doomscroll`.
+Open a [pull request](https://github.com/irbis-sh/filter-lists/pulls) with the label `no-doomscroll`.
