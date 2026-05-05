@@ -6,5 +6,7 @@ reddit.com#%#//scriptlet('sanitize-clipboard', '/utm_.+/')
 linkedin.com#%#//scriptlet('sanitize-clipboard', '/utm_.+/ rcm')
 instagram.com#%#//scriptlet('sanitize-clipboard', '/utm_.+/ igsh')
 tiktok.com#%#//scriptlet('sanitize-clipboard', 'is_from_webapp sender_device web_id')
+atlassian.net#%#//scriptlet('sanitize-clipboard', 'atlOrigin')
+
 chatgpt.com#%#//scriptlet('prevent-fetch', 'ab.chatgpt.com/v1/rgstr method:POST')
 ||s-cdn.anthropic.com/images/*.gif?bk=
