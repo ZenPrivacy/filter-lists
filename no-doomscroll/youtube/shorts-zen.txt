@@ -17,6 +17,7 @@ www.youtube.com##ytd-rich-shelf-renderer[is-shorts]
 ! Video description, search results
 www.youtube.com##ytd-reel-shelf-renderer
 www.youtube.com##grid-shelf-view-model:has(ytm-shorts-lockup-view-model-v2)
+www.youtube.com##ytd-video-renderer:has(a[href^="/shorts/"])
 
 ! ## Mobile
 ! Home page feed
